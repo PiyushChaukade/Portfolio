@@ -15,14 +15,14 @@ export function Footer() {
 
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/selvakumar-p-409b07220/"
+          href="https://www.linkedin.com/in/piyush-chaukade-52a3b417b/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={linkedin} alt="Linkedin" />
         </a>
         <a
-          href="https://github.com/selva658"
+          href="https://github.com/PiyushChaukade"
           target="_blank"
           rel="noreferrer"
         >

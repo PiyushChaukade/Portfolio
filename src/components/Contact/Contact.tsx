@@ -14,12 +14,12 @@ export function Contact(){
       </header>
       <div className="contacts">
         <div>
-        <a href="mailto:selvakumarpsk658@gmail.com"><img src={emailIcon} alt="Email" /></a> 
-          <a href="mailto:selvakumarpsk658@gmail.com">selvakumarpsk658@gmail.com</a>
+        <a href="mailto:piyushchaukade21@gmail.com"><img src={emailIcon} alt="Email" /></a> 
+          <a href="mailto:piyushchaukade21@gmail.com">piyushchaukade21@gmail.com</a>
         </div>
         <div>
-        <a href="tel:+91 7010502842"><img src={phoneIcon} alt="Phone No" /></a>
-          <a href="tel:+91 7010502842">(+91) 7010502842</a>
+        <a href="tel:+91 9730450023"><img src={phoneIcon} alt="Phone No" /></a>
+          <a href="tel:+91 9730450023">(+91) 9730450023</a>
         </div>  
       </div>
       <Form></Form>
