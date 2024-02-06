@@ -76,6 +76,11 @@ export const Container = styled.section`
       }
 
     }
+    .Myprojects{
+      width: 60%;
+      height:40%;
+      padding: 5px 5px 10px 5px;
+    }
   }
 
   @media (max-width: 960px){

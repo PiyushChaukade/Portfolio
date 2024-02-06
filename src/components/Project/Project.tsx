@@ -2,6 +2,15 @@ import { Container } from "./styles";
 // import githubIcon from "../../assets/github.svg"
 // import DownloadApp from '../../assets/download.png'
 import externalLink from "../../assets/external-link.svg"
+import PatreonImg from "../../assets/Patreon.png"
+import WeatherApp from "../../assets/Weather.png"
+import Calculator from "../../assets/Calculator.png"
+import NykaaClone from "../../assets/Nykaa1.jpg"
+import HMClone from "../../assets/HM.jpg"
+import YouTubeClone from "../../assets/Youtube.jpg"
+import MovieClone from "../../assets/Movie.jpg"
+
+
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -10,9 +19,6 @@ export function Project() {
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
-
-
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -30,6 +36,7 @@ export function Project() {
               <p>
                 Patreon is a membership platform that makes it easy for artists and creators to get paid, where artists get paid through patron.On Patreon, you can let your fans become active participants in the work they love by offering them a monthly membership.
               </p>
+              <img src={PatreonImg} alt="PatreonImg" className="Myprojects" />
             </div>
             <footer>
               <ul className="tech-list">
@@ -59,8 +66,9 @@ export function Project() {
             <div className="body">
               <h3>Vue.js Weather App</h3>
               <p>
-                Experience a seamless weather-tracking journey with my Vue.js application. Users enjoy personalized weather updates with detailed information like temperature, humidity, and wind speed. Explore hourly and 7-day forecasts, access saved searches, and navigate effortlessly through a visually appealing UI for city-wise weather exploration.
+                Experience a seamless weather-tracking journey with my Vue.js application. Users enjoy personalized weather updates with detailed information like temperature, humidity, and wind speed. Explore hourly and 7-day forecasts.
               </p>
+              <img src={WeatherApp} alt="WeatherApp" className="Myprojects" />
             </div>
             <footer>
               <ul className="tech-list">
@@ -90,8 +98,9 @@ export function Project() {
             <div className="body">
               <h3>Vue.js Calculator App</h3>
               <p>
-                "Dive into a user-friendly Vue.js web app presenting a sleek and efficient calculator. Crafted with Vue.js, CSS, HTML, and JS, the app initializes at 0 and boasts features like direct percentile calculation, multiple number inputs, customizable themes, and seamless performance.
+                "Dive into a user-friendly Vue.js web app presenting a sleek and efficient calculator. boasts features like direct percentile calculation, multiple number inputs, customizable themes, and seamless performance.
               </p>
+              <img src={Calculator} alt="Calculator" className="Myprojects" />
             </div>
             <footer>
               <ul className="tech-list">
@@ -123,6 +132,7 @@ export function Project() {
               <p>
                 An Indian e-commerce website for branded beauty products made using MERN stack where people from anywhere in the world can buy or sell their products. It has build in authentication along with auto SignIn functionality.
               </p>
+              <img src={NykaaClone} alt="NykaaClone" className="Myprojects" />
             </div>
             <footer>
               <ul className="tech-list">
@@ -153,8 +163,9 @@ export function Project() {
             <div className="body">
               <h3>H & M_Clone</h3>
               <p>
-                An E-commerce website for lifestyle and beauty products made using MERN stack where people from anywhere in the world can buy or sell their products. It has build in authentication along with auto SignIn functionality.
+                Explore an E-commerce platform for lifestyle and beauty products, expertly crafted using MERN stack. Seamlessly buy or sell globally, ensuring a smooth online shopping experience for users worldwide.
               </p>
+              <img src={HMClone} alt="HMClone" className="Myprojects" />
             </div>
             <footer>
               <ul className="tech-list">
@@ -183,8 +194,9 @@ export function Project() {
             <div className="body">
               <h3>YouTube App</h3>
               <p>
-                clone of Youtube using Api shows, trending & searched videos plays it too.
+                Experience a Youtube clone with trending, searched videos, and play functionalities, powered by API for an authentic Youtube browsing experience. Explore, watch, and enjoy videos hassle-free.
               </p>
+              <img src={YouTubeClone} alt="YouTubeClone" className="Myprojects" />
             </div>
             <footer>
               <ul className="tech-list">
@@ -213,8 +225,9 @@ export function Project() {
             <div className="body">
               <h3>Movie_informer App</h3>
               <p>
-                It is a Movie_informer app which provides movies information  using movie api with Closure.
+                Discover a Movie Informer app delivering comprehensive movie information through a movie API, enriched with Closure. Stay informed and entertained with this app designed for cinephiles and movie enthusiasts.
               </p>
+              <img src={MovieClone} alt="MovieClone" className="Myprojects" />
             </div>
             <footer>
               <ul className="tech-list">
