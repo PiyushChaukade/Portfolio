@@ -1,6 +1,5 @@
 # Portfolio of Vinayak Singh
-
-<img src ="https://github.com/CodeVinayak/CodeVinayak/blob/5920a79f4c5977332a67caf91125241cf0fc46b5/www.vinayaksingh.in.png" />
+![Portfolio_new](https://github.com/PiyushChaukade/Portfolio/assets/93372962/b49d2c41-cdcc-4e9e-a566-e71d2679649b)
  
 This project was created with CRA (Create React App)
 
