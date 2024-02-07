@@ -9,10 +9,7 @@ import NykaaClone from "../../assets/Nykaa1.jpg"
 import HMClone from "../../assets/HM.jpg"
 import YouTubeClone from "../../assets/Youtube.jpg"
 import MovieClone from "../../assets/Movie.jpg"
-
-
 import ScrollAnimation from "react-animate-on-scroll";
-
 
 export function Project() {
   return (
@@ -33,21 +30,18 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Patreon_Clone</h3>
-              <img src={PatreonImg} alt="PatreonImg" className="Myprojects" />
-
+              <img className="Myproject" src={PatreonImg} alt="PatreonImg" />
               <div>
-                Patreon is a membership platform that makes it easy for artists and creators to get paid, where artists get paid through patron.On Patreon, you can let your fans become active participants in the work they love by offering them a monthly membership.
+                Patreon is a membership platform that empowers artists and creators to get paid directly from patrons, enabling fan engagement through monthly memberships..
               </div>
-
+              <p className="container">
+              </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>MongoDB</li>
                 <li>Router</li>
-                <li>React</li>
+                <li>React JS</li>
                 <li>CSS</li>
-                <li>JavaScript</li>
-                <li>MUI lib</li>
               </ul>
             </footer>
           </div>
@@ -67,20 +61,17 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Vue.js Weather App</h3>
-              <img src={WeatherApp} alt="WeatherApp" className="Myprojects" />
+              <img className="Myproject" src={WeatherApp} alt="WeatherApp" />
               <div>
-                Experience a seamless weather-tracking journey with my Vue.js application. Users enjoy personalized weather updates with detailed information like temperature, humidity, and wind speed. Explore hourly and 7-day forecasts.
+                Explore a seamless weather-tracking journey with my Vue.js app. Enjoy personalized updates on temperature, humidity, and wind speed, including hourly and 7-day forecasts.
               </div>
-
             </div>
             <footer>
               <ul className="tech-list">
                 <li>Vue JS</li>
-                <li>HTML</li>
                 <li>CSS</li>
-                <li>Javascript</li>
                 <li>DOM</li>
-                <li>API</li>
+
               </ul>
             </footer>
           </div>
@@ -99,20 +90,18 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Vue.js Calculator App</h3> <img src={Calculator} alt="Calculator" className="Myprojects" />
+              <h3>Vue.js Calculator App</h3>
+              <img className="Myproject" src={Calculator} alt="Calculator" />
               <div>
-                "Dive into a user-friendly Vue.js web adivp presenting a sleek and efficient calculator. boasts features like direct percentile calculation, multiple number inputs, customizable themes, and seamless performance.
+                Dive into a sleek Vue.js calculator web app, offering direct percentile calculation, multiple inputs, customizable themes, and seamless performance.
               </div>
-
             </div>
             <footer>
               <ul className="tech-list">
                 <li>Vue JS</li>
-                <li>HTML</li>
                 <li>CSS</li>
-                <li>Javascript</li>
                 <li>DOM</li>
-                <li>API</li>
+
               </ul>
             </footer>
           </div>
@@ -131,21 +120,19 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Nykaa_Clone</h3>            <img src={NykaaClone} alt="NykaaClone" className="Myprojects" />
+              <h3>Nykaa_Clone</h3>
+              <img className="Myproject" src={NykaaClone} alt="NykaaClone" />
               <div>
-                An Indian e-commerce website for branded beauty products made using MERN stack where people from anywhere in the world can buy or sell their products. It has build in authentication along with auto SignIn functionality.
+                Explore an Indian e-commerce site for branded beauty products, built with MERN stack. Buy or sell globally with built-in authentication and auto sign-in.
               </div>
 
             </div>
             <footer>
               <ul className="tech-list">
-                <li>MongoDB</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>Node</li>
                 <li>JavaScript</li>
-                <li>DOM</li>
-                <li>API</li>
+
               </ul>
             </footer>
           </div>
@@ -165,19 +152,17 @@ export function Project() {
             </header>
             <div className="body">
               <h3>H & M_Clone</h3>
-              <img src={HMClone} alt="HMClone" className="Myprojects" />
+              <img className="Myproject" src={HMClone} alt="HMClone" />
               <div>
-                Explore an E-commerce platform for lifestyle and beauty products, expertly crafted using MERN stack. Seamlessly buy or sell globally, ensuring a smooth online shopping experience for users worldwide.
+                Discover a MERN-crafted E-commerce hub for lifestyle and beauty essentials. Facilitate global buying and selling, ensuring a seamless online shopping experience.
               </div>
-
             </div>
             <footer>
               <ul className="tech-list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
-                <li>Node</li>
-                <li>DOM</li>
+
               </ul>
             </footer>
           </div>
@@ -197,19 +182,17 @@ export function Project() {
             </header>
             <div className="body">
               <h3>YouTube App</h3>
-              <img src={YouTubeClone} alt="YouTubeClone" className="Myprojects" />
+              <img className="Myproject" src={YouTubeClone} alt="YouTubeClone" />
               <div>
-                Experience a Youtube clone with trending, searched videos, and play functionalities, powered by API for an authentic Youtube browsing experience. Explore, watch, and enjoy videos hassle-free.
+                Explore a YouTube replica featuring trending and searched videos, with seamless play functionality powered by API. Enjoy hassle-free video browsing, watching, and discovery.
               </div>
-
             </div>
             <footer>
               <ul className="tech-list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
-                <li>Node</li>
-                <li>DOM</li>
+
               </ul>
             </footer>
           </div>
@@ -229,19 +212,16 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Movie_informer App</h3>
-              <img src={MovieClone} alt="MovieClone" className="Myprojects" />
+              <img className="Myproject" src={MovieClone} alt="MovieClone" />
               <div>
-                Discover a Movie Informer app delivering comprehensive movie information through a movie API, enriched with Closure. Stay informed and entertained with this app designed for cinephiles and movie enthusiasts.
+                Explore a Movie Informer app with detailed movie info via API. Stay informed and entertained, designed for cinephiles.
               </div>
-
             </div>
             <footer>
               <ul className="tech-list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
-                <li>Node</li>
-                <li>DOM</li>
               </ul>
             </footer>
           </div>
