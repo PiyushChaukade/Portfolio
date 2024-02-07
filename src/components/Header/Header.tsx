@@ -38,6 +38,9 @@ export function Header() {
           <NavHashLink smooth to="#about" onClick={closeMenu}>
             About me
           </NavHashLink>
+          <NavHashLink smooth to="#skills" onClick={closeMenu}>
+            Skills
+          </NavHashLink>
           <NavHashLink smooth to="#project" onClick={closeMenu}>
             Project
           </NavHashLink>
@@ -45,7 +48,7 @@ export function Header() {
             Contact
           </NavHashLink>
           <a href="https://drive.google.com/file/d/1QioIOxRb0k5M5NvDDzwiEf-VpHI0bHMX/view?usp=drive_link" target="_blank" rel="noreferrer" className="button">
-            CV
+            Resume
           </a>
         </nav>
 

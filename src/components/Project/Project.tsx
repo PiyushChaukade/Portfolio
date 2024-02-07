@@ -33,10 +33,12 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Patreon_Clone</h3>
-              <p>
-                Patreon is a membership platform that makes it easy for artists and creators to get paid, where artists get paid through patron.On Patreon, you can let your fans become active participants in the work they love by offering them a monthly membership.
-              </p>
               <img src={PatreonImg} alt="PatreonImg" className="Myprojects" />
+
+              <div>
+                Patreon is a membership platform that makes it easy for artists and creators to get paid, where artists get paid through patron.On Patreon, you can let your fans become active participants in the work they love by offering them a monthly membership.
+              </div>
+
             </div>
             <footer>
               <ul className="tech-list">
@@ -65,10 +67,11 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Vue.js Weather App</h3>
-              <p>
-                Experience a seamless weather-tracking journey with my Vue.js application. Users enjoy personalized weather updates with detailed information like temperature, humidity, and wind speed. Explore hourly and 7-day forecasts.
-              </p>
               <img src={WeatherApp} alt="WeatherApp" className="Myprojects" />
+              <div>
+                Experience a seamless weather-tracking journey with my Vue.js application. Users enjoy personalized weather updates with detailed information like temperature, humidity, and wind speed. Explore hourly and 7-day forecasts.
+              </div>
+
             </div>
             <footer>
               <ul className="tech-list">
@@ -96,11 +99,11 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Vue.js Calculator App</h3>
-              <p>
-                "Dive into a user-friendly Vue.js web app presenting a sleek and efficient calculator. boasts features like direct percentile calculation, multiple number inputs, customizable themes, and seamless performance.
-              </p>
-              <img src={Calculator} alt="Calculator" className="Myprojects" />
+              <h3>Vue.js Calculator App</h3> <img src={Calculator} alt="Calculator" className="Myprojects" />
+              <div>
+                "Dive into a user-friendly Vue.js web adivp presenting a sleek and efficient calculator. boasts features like direct percentile calculation, multiple number inputs, customizable themes, and seamless performance.
+              </div>
+
             </div>
             <footer>
               <ul className="tech-list">
@@ -128,11 +131,11 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Nykaa_Clone</h3>
-              <p>
+              <h3>Nykaa_Clone</h3>            <img src={NykaaClone} alt="NykaaClone" className="Myprojects" />
+              <div>
                 An Indian e-commerce website for branded beauty products made using MERN stack where people from anywhere in the world can buy or sell their products. It has build in authentication along with auto SignIn functionality.
-              </p>
-              <img src={NykaaClone} alt="NykaaClone" className="Myprojects" />
+              </div>
+
             </div>
             <footer>
               <ul className="tech-list">
@@ -162,10 +165,11 @@ export function Project() {
             </header>
             <div className="body">
               <h3>H & M_Clone</h3>
-              <p>
-                Explore an E-commerce platform for lifestyle and beauty products, expertly crafted using MERN stack. Seamlessly buy or sell globally, ensuring a smooth online shopping experience for users worldwide.
-              </p>
               <img src={HMClone} alt="HMClone" className="Myprojects" />
+              <div>
+                Explore an E-commerce platform for lifestyle and beauty products, expertly crafted using MERN stack. Seamlessly buy or sell globally, ensuring a smooth online shopping experience for users worldwide.
+              </div>
+
             </div>
             <footer>
               <ul className="tech-list">
@@ -193,10 +197,11 @@ export function Project() {
             </header>
             <div className="body">
               <h3>YouTube App</h3>
-              <p>
-                Experience a Youtube clone with trending, searched videos, and play functionalities, powered by API for an authentic Youtube browsing experience. Explore, watch, and enjoy videos hassle-free.
-              </p>
               <img src={YouTubeClone} alt="YouTubeClone" className="Myprojects" />
+              <div>
+                Experience a Youtube clone with trending, searched videos, and play functionalities, powered by API for an authentic Youtube browsing experience. Explore, watch, and enjoy videos hassle-free.
+              </div>
+
             </div>
             <footer>
               <ul className="tech-list">
@@ -224,10 +229,11 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Movie_informer App</h3>
-              <p>
-                Discover a Movie Informer app delivering comprehensive movie information through a movie API, enriched with Closure. Stay informed and entertained with this app designed for cinephiles and movie enthusiasts.
-              </p>
               <img src={MovieClone} alt="MovieClone" className="Myprojects" />
+              <div>
+                Discover a Movie Informer app delivering comprehensive movie information through a movie API, enriched with Closure. Stay informed and entertained with this app designed for cinephiles and movie enthusiasts.
+              </div>
+
             </div>
             <footer>
               <ul className="tech-list">
