@@ -2,10 +2,13 @@ import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
+// import { useEffect } from 'react';
+// import Resume from "../../assets/Piyush_chaukade.pdf"
+
+
 
 export function Header() {
   const [isActive, setActive] = useState(false)
-
   function toggleTheme() {
     let html = document.getElementsByTagName('html')[0]
     html.classList.toggle('light')
@@ -47,7 +50,7 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href="https://drive.google.com/file/d/1QioIOxRb0k5M5NvDDzwiEf-VpHI0bHMX/view?usp=drive_link" target="_blank" rel="noreferrer" className="button">
+          <a href='https://drive.google.com/file/d/1XOeS-lHTjZwPdYKJJqc7Nf-CK1viCIuD/view?usp=sharing'  target="_blank" rel="noreferrer" className="button" download="Piyush_chaukade" >
             Resume
           </a>
         </nav>
